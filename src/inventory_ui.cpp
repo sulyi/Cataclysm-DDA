@@ -218,7 +218,7 @@ inventory_entry *inventory_column::find_by_invlet( int invlet ) const
     return nullptr;
 }
 
-void group_entry::set_number_of_children( const int n )
+void group_entry::set_number_of_children( const int &n )
 {
     n_children = n;
 }
